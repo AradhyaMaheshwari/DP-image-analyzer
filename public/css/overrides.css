@@ -1,0 +1,9 @@
+body{font-family:'General Sans',Arial,'Helvetica Neue',sans-serif}
+/* Large, orderly blueprint panels replace the dense irregular tile. */
+body{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='480' height='480' viewBox='0 0 480 480'%3E%3Cpath fill='%23F7F7F5' stroke='%233A3A38' stroke-opacity='.12' stroke-width='.6' d='M0 0h480v480H0zM240 0v480M0 240h480M0 120h240M120 0v120M240 120h240M360 0v120M0 360h120M120 360v120M360 240v120M360 360h120'/%3E%3C/svg%3E");background-size:480px 480px;background-position:0 0;background-attachment:fixed}
+.nav-ghost{padding:9px 10px;border:1px solid var(--hair);color:var(--forest);text-decoration:none;font:9px var(--mono);text-transform:uppercase;white-space:nowrap}
+.nav-ghost span{margin-left:7px}
+.status .forest-dot{background:var(--forest)}
+.selected img,.compare img{filter:none;mix-blend-mode:luminosity;opacity:.9}
+.selected img:hover,.compare img:hover{filter:none;mix-blend-mode:normal;opacity:1}
+@media(max-width:720px){.nav-ghost{display:none}}
