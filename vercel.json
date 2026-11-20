@@ -3,7 +3,7 @@
   "functions": {
     "app.py": {
       "maxDuration": 300,
-      "includeFiles": ["models/best.pt", "templates/**"],
+      "includeFiles": "{models/best.pt,templates/**}",
       "excludeFiles": "{.venv/**,__pycache__/**,*.pyc,README.md}"
     }
   }
